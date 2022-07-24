@@ -6,9 +6,7 @@ st.write("""
 
 st.header('Please Enter A Number Below')
 
-def user_input_features():
-  num = st.number_input("Number", min_value=0, step=1)
-  return num
+num = st.number_input("Number", min_value=0, step=1)
 
 if num % 2 == 0:
   num = 'Even'
